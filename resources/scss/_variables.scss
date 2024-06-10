@@ -1,0 +1,59 @@
+/* FONTS PATH */
+$fa-font-path: "../fonts";
+
+$xs: 0;
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1000px;
+$xxl: 1110px;
+
+/*containers size*/
+$container-max-widths: (
+        sm: $sm,
+        md: $md,
+        lg: $lg,
+        xl: $xl,
+        xxl: $xxl
+);
+
+$grid-breakpoints: (
+        xs: $xs,
+        sm: $sm,
+        md: $md,
+        lg: $lg,
+        xl: $xl,
+        xxl: $xxl
+);
+
+/*fonts*/
+
+
+
+
+/*colors*/
+$primary: #0069AB;
+$secondary: #00A4F4;
+$dark: #3D3D3D; 
+$info: #A7E2FF;
+$light: #B0B0B0;
+$light-blue: #F2FAFF;
+$white: #fff;
+$gray: #6D6D6D;
+
+
+
+$theme-colors: (
+        "primary":    $primary,
+        "secondary":  $secondary,
+        // "success":    $success,
+        "info":       $info,
+        // "warning":    $warning,
+        // "danger":     $danger,
+        "light":      $light,
+        "dark":       $dark,
+        "white":      $white,
+        "light-blue": $light-blue,
+        "gray":       $gray,
+);
+

@@ -1,0 +1,32 @@
+#about-us{
+    .container{
+        margin-top: 100px;
+        .sobre-nos{
+            border: 2px solid $secondary;
+            border-radius: 28px;
+            box-shadow: -8px 8px 28px 0 rgba(0, 0, 0, 0.06);
+            h2{
+                color: $dark;
+                font-size: 32px;
+                font-weight: 700;
+                .destaque{
+                    background: rgb(167,226,255);
+                    background: linear-gradient(81deg, rgba(167,226,255,1) 0%, rgba(0,149,222,1) 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    color: transparent;
+                }
+            }
+            .img-100{
+                img{
+                    border-radius: 20px;
+                }
+            }
+            p{
+                color: $gray;
+                font-size: 16px;
+            }
+        }
+    }
+}
