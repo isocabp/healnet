@@ -1,0 +1,64 @@
+#especialistas {
+  .container {
+    margin-top: 100px;
+    h2 {
+      background: rgb(167, 226, 255);
+      background: linear-gradient(
+        81deg,
+        rgba(167, 226, 255, 1) 0%,
+        rgba(0, 149, 222, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    h3 {
+      color: $dark;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $light;
+      font-size: 16px;
+      padding: 0 195px;
+    }
+    .especialistas {
+      .card-especialistas {
+        background: rgb(53, 189, 255);
+        background: linear-gradient(
+          138deg,
+          rgba(53, 189, 255, 1) 0%,
+          rgba(0, 140, 208, 1) 100%
+        );
+        border-radius: 28px;
+        position: relative;
+        width: 780px;
+        margin: 60px auto;
+        overflow-x: clip;
+      }
+
+      h3 {
+        color: $white;
+        font-size: 24px;
+        font-weight: 800;
+      }
+      p {
+        color: $white;
+        font-size: 16px;
+        padding: 0;
+      }
+      .img-100 {
+        position: absolute;
+        top: -41px;
+        left: -10px;
+        img {
+          width: 288px;
+        }
+      }
+    }
+  }
+}
