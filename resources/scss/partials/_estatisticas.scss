@@ -27,6 +27,25 @@
     }
     .depoimentos {
       margin-top: 60px;
+      position: relative;
+      .img-fundo {
+        position: absolute;
+        left: -50px;
+        top: -70px;
+        z-index: -1;
+        img {
+          width: 135px;
+        }
+      }
+      .img-fundo-2 {
+        position: absolute;
+        right: -50px;
+        bottom: -60px;
+        z-index: -1;
+        img {
+          width: 135px;
+        }
+      }
       .card-depoimento {
         border: 2px solid $secondary;
         background: rgb(235, 248, 255);

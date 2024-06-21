@@ -1,32 +1,43 @@
-#appointment{
-    .container{
-        margin-top: 80px;
-        .bloco-appointment{
-            border-radius: 28px;
-            background-color: $white;
-            border: 2px solid $secondary;
-            h2{
-                color: $primary;
-                font-size: 32px;
-                font-weight: 700;
-            }
-            h3{
-                color: $dark;
-                font-size: 16px;
-            }
-            form{
-                .form-label{
-                    display: none;
-                }
-                .form-control{
-                    border: 1px solid #E7E7E7;
-                    color: #E7E7E7; 
-                    &::placeholder{
-                        color: #E7E7E7;
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
+#appointment {
+  .container {
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
+    .img-fundo {
+      position: absolute;
+      z-index: -1;
+      bottom: -45px;
+      left: -8px;
+      img {
+        width: 135px;
+      }
     }
+    .bloco-appointment {
+      border-radius: 28px;
+      background-color: $white;
+      border: 2px solid $secondary;
+      h2 {
+        color: $primary;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      h3 {
+        color: $dark;
+        font-size: 16px;
+      }
+      form {
+        .form-label {
+          display: none;
+        }
+        .form-control {
+          border: 1px solid #e7e7e7;
+          color: #e7e7e7;
+          &::placeholder {
+            color: #e7e7e7;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
 }

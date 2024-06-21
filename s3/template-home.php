@@ -11,6 +11,9 @@ include("header.php");
 ?>
 <main role="main">
   <section id="banner">
+    <div class="img-fundo">
+      <img src="assets/img/linha.png" alt="">
+    </div>
     <div class="container h-100">
       <div class="row h-100 d-flex align-items-center">
         <div class="col-7">
@@ -39,8 +42,13 @@ include("header.php");
     </div>
   </section>
   <section id="appointment">
+
     <div class="container">
+      <div class="img-fundo">
+        <img src="assets/img/dots.png" alt="">
+      </div>
       <div class="bloco-appointment py-4 px-5">
+
         <h2>Easily book an appointment in 3 simple steps.</h2>
         <div class="row mt-4">
           <div class="col-3">
@@ -89,6 +97,12 @@ include("header.php");
           <p>In today’s fast-paced world, your health deserves the utmost attention and convenience. That’s why HealNet offers a suite of integrated services designed to cater to your healthcare needs digitally:</p>
         </div>
         <div class="bloco-servicos margin-top-40">
+          <div class="img-fundo">
+            <img src="assets/img/overlay.png" alt="">
+          </div>
+          <div class="img-fundo-2">
+            <img src="assets/img/overlay.png" alt="">
+          </div>
           <div class="row d-flex justify-content-center">
             <div class="col-7  mb-5 text-start">
               <div class="servicos h-100 d-flex align-items-center px-5">
@@ -228,6 +242,9 @@ include("header.php");
         <h3>Hear from Those We’ve Cared For</h3>
         <p>Discover the difference we make through the voices of those we’ve served:</p>
         <div class="depoimentos">
+          <div class="img-fundo">
+            <img src="assets/img/circle.png" alt="">
+          </div>
           <div class="row">
             <div class="col-6">
               <div class="card-depoimento text-start">
@@ -300,6 +317,9 @@ include("header.php");
           </div>
         </div>
         <div class="depoimentos">
+          <div class="img-fundo-2">
+            <img src="assets/img/circle.png" alt="">
+          </div>
           <div class="row">
             <div class="col-6">
               <div class="card-depoimento text-start">
